@@ -306,20 +306,136 @@ input::placeholder{
 
 .firstLine{
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
 .secondLine{
     display: flex;
+    justify-content: center;
     gap: 24px
 }
 
 .thirdLine{
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
+.maldives{
+    position: relative;
+}
 
+.maldives h3{
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 139px;
+    left: 222px;
+}
+
+.indonesia{
+    position: relative;
+}
+
+.indonesia h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 131px;
+    left: 222px;
+}
+.srilanka{
+    position: relative;
+}
+
+.srilanka h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 125px;
+    left: 130px;
+}
+.nortamerica{
+    position: relative;
+}
+
+.nortamerica h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 125px;
+    left: 135px;
+}
+.kashmir{
+    position: relative;
+}
+.kashmir h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 125px;
+    left: 82px;
+
+}
+.bangladesh{
+    position: relative;
+}
+
+.bangladesh h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 138px;
+    left: 155px;
+}
+
+.bandarban{
+    position: relative;
+}
+
+.bandarban h3{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    top: 131px;
+    left: 257px;
+}
 /* why choose us */
 
 .chooseUsHeadline{
@@ -774,6 +890,37 @@ line-height: normal;
     .thirdLine{
         display: flex;
         flex-direction: column;
+    }
+
+    .maldives h3{
+        top: 73px;
+        left: 108px;
+    }
+
+    .indonesia h3{
+        top: 73px;
+        left: 105px;
+    }
+    .srilanka h3{
+        top: 73px;
+        left: 109px;
+    }
+
+    .nortamerica h3{
+        top: 73px;
+        left: 67px;
+    }
+    .kashmir h3{
+        top: 73px;
+        left: 110px;
+    }
+    .bangladesh h3{
+        top: 73px;
+        left: 90px;
+    }
+    .bandarban h3{
+        top: 73px;
+        left: 93px;
     }
 
 /* why chosse us */
