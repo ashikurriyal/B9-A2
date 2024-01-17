@@ -112,10 +112,11 @@
 }
 
 /* Banner */
-/* .center{
-
+#barIcon{
+    display: none;
 }
- */
+
+
 .banField1 h2{
     color: #FFF;
     font-family: Mulish;
@@ -508,7 +509,7 @@ input::placeholder{
 
 .lastOne{
     display: flex;
-    margin-top: 48px;
+    margin-top: 24px;
     justify-content: center;
 }
 
@@ -903,6 +904,13 @@ line-height: normal;
     }
 
 
+    #barIcon{
+        display: inline;
+        margin-left: 116px;
+        margin-top: 20px;
+    }
+
+
 
     .tourCont{
         grid-template-columns: repeat(1,1fr);
@@ -1079,6 +1087,7 @@ line-height: normal;
 
     .newsCont{
         flex-direction: column;
+        margin-top: 24px;
         
     }
 
